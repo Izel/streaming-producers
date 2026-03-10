@@ -1,0 +1,3 @@
+python-dotenv
+google-cloud-pubsub
+websocket-client
