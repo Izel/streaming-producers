@@ -1,10 +1,20 @@
 # About streaming-producers
 
-Set of scripts that produce streamming traffic.
-| Script               | Usage                                                   |
-| ---------------------| --------------------------------------------------------|
-| crypto.py            | Provides real-time cryptocurrency prices via WebSocket. |
-
+Set of scripts that produce streaming traffic.  
+  
+**Script:** `crypto.py`  
+**Description:** Provides real-time cryptocurrency prices via WebSocket.  
+**Data Sample:**   
+``` 
+JSON
+{
+  "type": "ticker",
+  "product_id": "BTC-USD",
+  "price": "64210.11",
+  "time": "2026-03-09T10:23:00Z"
+} 
+```
+             
 ## TOOLS
 | Usage                | Tool                                                  |
 | ---------------------| ------------------------------------------------------|
